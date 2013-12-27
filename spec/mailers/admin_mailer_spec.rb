@@ -14,7 +14,7 @@ describe AdminMailer, '#payment_notification' do
   end
 
   it "has the correct subject" do
-    expect(@email).to have_subject(/Your Crowdhoster project has a new backer!/)
+    expect(@email).to have_subject(/Your Preshares project has a new backer!/)
   end
 
   it "contains the proper copy" do
